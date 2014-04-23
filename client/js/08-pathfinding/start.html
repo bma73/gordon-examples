@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pathfinding</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="gordon"><p>gordon</p></div>
+            <h2>Pathfinding</h2>
+
+            <div class="canvasHolder">
+                <canvas class="roundcorner" id="canvas" width="800" height="600"></canvas>
+            </div>
+
+        </div>
+        <div class="log-container">
+            <div class="log roundcorner" id="log"></div>
+        </div>
+        <div class="blocker" id="blocker">
+            <span class="centeredlabel"><h2>Connecting...</h2></span>
+        </div>
+        <div style="display: none;">
+            <img id="thing" src="../img/thing.png">
+            <img id="wall" src="../img/wall.jpg">
+        </div>
+        <script src="../js/gordon-client-0.1.0.min.js"></script>
+        <script src="../vendor/jquery-1.11.0.min.js"></script>
+        <script src="../vendor/easeljs-0.7.1.min.js"></script>
+        <script src="../vendor/greensock/TweenMax.min.js"></script>
+        <script src="thing.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,169 @@
+html {
+    background-color: #fff;
+    color: #545454;
+    font-family: Segoe UI, Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 0.9em;
+}
+
+a {
+    color:#545454;
+}
+
+input {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 5px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border-style: none;
+    padding: 5px 10px 5px 10px;
+    margin-top: 0px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    width: 100%;
+}
+
+.width100p {
+    width: 100%;
+}
+
+.height100p {
+    height: 100%;
+}
+
+.log-container{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 5px;
+    left:0;
+}
+
+.log {
+    width: 95%;
+    height: 95%;
+    background-color: rgba(150, 150, 150, 0.5);
+    overflow-y: auto;
+    padding: 2px 2px 2px 2px;
+    font-family: Segoe UI, Verdana, Arial, Helvetica, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.crop {
+    overflow-y: auto;
+}
+
+.users {
+    width: 20%;
+}
+
+.chat {
+    width: 78%;
+}
+
+.roundcorner {
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #545454;
+}
+
+.gordon {
+    /*display: none;*/
+    height: 95px;
+    background-image: url(../img/gordon.png);
+    background-repeat: no-repeat;
+}
+
+.gordon p {
+    font-size: 3.2em;
+    font-weight: bolder;
+    margin-left: 100px;
+    color: #000;
+}
+
+.blocker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: dodgerblue;
+    opacity: 0.7;
+    text-align: center;
+    display: table;
+    color: white;
+}
+
+.chatroom {
+    display: table;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    background-color: dodgerblue;
+}
+
+.playercursor {
+    position: absolute;
+    display: none;
+}
+
+.player {
+    position: absolute;
+    font-size: 0.8em;
+    top: 0px;
+    left: 0px;
+    display: table;
+    float: left;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    color: #ffffff;
+    background-color: dodgerblue;
+    box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.65);
+    display: none;
+}
+
+.selected {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #000000;
+}
+
+.centeredlabel {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.transparent {
+    opacity: 0.3;
+}
+
+
+
+
