@@ -8,9 +8,11 @@ The included examples show some basic strategies to get started with Gordon.
 
 ### Install
 
-With [npm](http://npmjs.org) do:
+
 ```
-npm install gordon-examples
+git clone https://github.com/bma73/gordon-examples.git
+cd gordon-examples
+npm install
 ```
 See also [gordon-client][2] and [gordon-server][3].
 
