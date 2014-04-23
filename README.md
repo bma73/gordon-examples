@@ -3,6 +3,7 @@
 Gordon Examples
 =============
 The included examples show some basic strategies to get started with Gordon.
+####[Live demo][2]
 
 ----------
 
@@ -14,7 +15,7 @@ git clone https://github.com/bma73/gordon-examples.git
 cd gordon-examples
 npm install
 ```
-See also [gordon-client][2] and [gordon-server][3].
+See also [gordon-client][3] and [gordon-server][4].
 
 ----------
 ###Examples
@@ -55,8 +56,7 @@ The Adobe Flash/Air version is located at ``client/as3``.
 The AS3 version provides a FlashDevelop project.
 
 
-
-
   [1]: https://cloud.githubusercontent.com/assets/7307652/2774582/445a43cc-caba-11e3-92f2-a2bc7600b52b.png
-  [2]: https://github.com/bma73/gordon-client
-  [3]: https://github.com/bma73/gordon-server
+  [2]: http://bma73.github.io/gordon-examples/html/
+  [3]: https://github.com/bma73/gordon-client
+  [4]: https://github.com/bma73/gordon-server
