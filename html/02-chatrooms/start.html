@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chatrooms</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="gordon"><p>gordon</p></div>
+            <h2>Chat Rooms</h2>
+            <div class="chatroom roundcorner" id="room1"><span class="centeredlabel">Room 1</span></div>
+            <div class="chatroom roundcorner" id="room2"><span class="centeredlabel">Room 2</span></div>
+            <div class="chatroom roundcorner" id="room3"><span class="centeredlabel">Room 3</span></div>
+            <div class="clear"></div>
+            <div class="width100p" style="height:300px; margin-top: 20px">
+                <div class="left users">
+                    Users
+                    <div class="roundcorner crop" style="height:300px;" id="userlist"></div>
+                </div>
+                <div class="right chat">
+                    Messages
+                    <div class="roundcorner crop" id="messages"  style="height:250px;"></div>
+                    <div>
+                        Message <br>
+                        <input id="message" class="roundcorner left" style="width:50%; height:20px;"></input>
+                        <button id="send" >Send</button>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <div class="log-container">
+            <div class="log roundcorner" id="log"></div>
+        </div>
+        <div class="blocker" id="blocker">
+            <span class="centeredlabel"><h2>Connecting...</h2></span>
+        </div>
+
+        <script src="../js/gordon-client-0.1.0.min.js"></script>
+        <script src="../vendor/jquery-1.11.0.min.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+</html>

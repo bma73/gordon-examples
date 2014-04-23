@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gamelogic2</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="gordon"><p>gordon</p></div>
+            <h2>Game Logic 2</h2>
+
+            <div> Select Room</div>
+            <div class="chatroom roundcorner" id="room1"><span class="centeredlabel">Room 1</span></div>
+            <div class="chatroom roundcorner" id="room2"><span class="centeredlabel">Room 2</span></div>
+            <div class="chatroom roundcorner" id="room3"><span class="centeredlabel">Room 3</span></div>
+        </div>
+
+        <div class="player roundcorner" id="thing"><span class="centeredlabel">Click Me!</span></div>
+
+        <div id="player" class="playercursor">
+            <div>
+                <span></span><br>
+                <img src="../img/cursor.png">
+            </div>
+        </div>
+
+        <div class="log-container">
+            <div class="log roundcorner" id="log"></div>
+        </div>
+        <div class="blocker" id="blocker">
+            <span class="centeredlabel"><h2>Connecting...</h2></span>
+        </div>
+
+        <script src="../js/gordon-client-0.1.0.min.js"></script>
+        <script src="../vendor/jquery-1.11.0.min.js"></script>
+        <script src="../vendor/greensock/plugins/CSSPlugin.min.js"></script>
+        <script src="../vendor/greensock/TweenMax.min.js"></script>
+        <script src="thing.js"></script>
+        <script src="player.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+</html>

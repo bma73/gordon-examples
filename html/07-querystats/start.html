@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Query Stats</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="gordon"><p>gordon</p></div>
+            <h2>Query Stats</h2>
+                <div class="left">
+                    Sessions
+                    <div>
+                     <select class="roundcorner crop" style="height:300px;width:230px; padding:5px 5px 5px 5px;" size="5" id="sessionlist">
+                     </select>
+                    </div>
+                </div>
+                <div class="left" style="margin-left: 20px">
+                    Rooms
+                    <div>
+                        <select class="roundcorner crop" style="height:300px;width:200px; padding:5px 5px 5px 5px;" size="5" id="roomlist">
+                        </select>
+                    </div>
+                </div>
+                 <div class="left" style="margin-left: 20px">
+                    Users
+                    <div>
+                        <select class="roundcorner crop" style="height:300px;width:200px; padding:5px 5px 5px 5px;" size="5" id="userlist">
+                        </select>
+                    </div>
+                  </div>
+            <br><br>
+        </div>
+        <div class="log-container">
+            <div class="log roundcorner" id="log"></div>
+        </div>
+        <div class="blocker" id="blocker">
+            <span class="centeredlabel"><h2>Connecting...</h2></span>
+        </div>
+
+        <script src="../js/gordon-client-0.1.0.min.js"></script>
+        <script src="../vendor/jquery-1.11.0.min.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+</html>
