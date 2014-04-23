@@ -21,7 +21,7 @@
         "node": ">= 0.8.0"
     },
     "dependencies": {
-        "gordon-server": "0.1.0",
+        "gordon-server": ">=0.1.0",
         "tween.js": "0.12.0",
         "astar-andrea": "1.0.0"
     },
