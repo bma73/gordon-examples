@@ -1,7 +1,7 @@
 {
     "name": "gordon-examples",
     "description": "Examples for the Gordon server",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/bma73",
     "author": {
         "name": "Bjoern Acker",
